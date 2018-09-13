@@ -1,0 +1,118 @@
+ .clearfix:after {
+    content: " ";
+    display: block;;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+body {
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,\\5B8B体,sans-serif;
+    color: #888888;
+}
+.pr{
+	position: relative;
+}
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ 
+ em,
+ i {
+ 	font-style: normal
+ }
+ 
+ li {
+ 	list-style: none
+ }
+ 
+ img {
+ 	border: 0;
+ 	vertical-align: middle
+ }
+ 
+ button {
+ 	cursor: pointer
+ }
+ 
+ a {
+ 	color: #666;
+ 	text-decoration: none
+ }
+ 
+ a:hover,.color-newred {
+ 	color: #ff0037
+ }
+ .fl{
+ 	float: left;
+ }
+ .fr{
+ 	float: right;
+ }
+ .ml10{
+ 	margin-left: 10px;
+ }
+.bg-black{
+	background: #1b1b1b;
+}
+.bg-gray{
+	background: #eee;
+}
+.bg-lightgray{
+		background: #f0f0f0;
+}
+.bg-white{
+	background: #fff;
+}
+.bg-darkgray{
+	background: #d2d2d2;
+}
+.main-width{
+	width:1200px;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+.mlr8{
+	margin: 0 8px;
+}
+.ml40{
+	margin-left: 40px;
+}
+.pt45{
+	padding-top: 45px;
+}
+.color-black{
+	color: #000;
+}
+.floor h6 {
+	color: #111;
+	font-size: 13px;
+}
+
+.floor em {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 51px;
+	height: 20px;
+	text-align: center;
+	border: 2px solid #080103;
+	color: #000000;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 17px;
+}
+
+.floor p {
+	color: #888888;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.prf10{
+	position: relative;
+	top: -9px;
+}
