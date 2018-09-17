@@ -172,3 +172,81 @@
 .icon-zan-active{
 	background-position: -119px -0px;
 }
+.cartIcon{
+	background: url(../image/icon.png) scroll no-repeat 0 0;
+	display: inline-block;	
+}
+.cartIcon-checkBox{
+	background-position: -475px -94px;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+.cartIcon-checkBox-checked{
+	background-position: -475px -144px;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;	
+}
+.cartIcon-delete{
+	background-position: -582px -94px;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.cartIcon-delete-red{
+	background-position: -576px -145px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+.iconIcon-cart{
+	background-position: -222px -88px;
+	width: 35px;
+	height: 35px;
+}
+.iconIcon-cart-red{
+	background-position: -222px -130px;
+	width: 35px;
+	height: 35px;
+}
+.iconIcon-order{
+	background-position: -310px -84px;
+	width: 35px;
+	height: 35px;	
+}
+.iconIcon-order-red{
+	background-position: -310px -130px;
+	width: 35px;
+	height: 35px;	
+}
+.iconIcon-successorder{
+	background-position: -384px -82px;
+	width: 35px;
+	height: 35px;		
+}
+.iconIcon-successorder-red{
+	background-position: -384px -130px;
+	width: 35px;
+	height: 35px;		
+}
+.iconIcon-pay{
+	background-position: -673px -96px;
+	width: 85px;
+	height: 85px;		
+}
+.iconIcon-weixin{
+	background-position: -100px -225px;
+	width: 180px;
+	height: 65px;		
+}
+.iconIcon-zhifubao{
+	background-position: -300px -225px;
+	width: 180px;
+	height: 65px;		
+}
+.iconIcon-zaixian{
+	background-position: -500px -225px;
+	width: 180px;
+	height: 65px;
+}

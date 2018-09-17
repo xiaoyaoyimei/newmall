@@ -1,0 +1,819 @@
+.successCart{
+    margin: 53px  auto 70px;
+    width: 100%;
+    max-width: 1200px;
+}
+.successCart .succeessImg{
+    float: left;
+    width: 50%;
+    padding-left:13px; 
+}
+.successCart .succeessImg >img{
+    float: left;
+    vertical-align: middle;
+}
+.successCart .succeessText{
+    padding-left: 13px;
+    height: 64px;
+    line-height: 32px;
+    float: left;
+}
+.successCart .succeessText h4{
+    font-size: 30px;
+    color: black;
+}
+.successCart .succeessText h6{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: rgb(141, 141, 141);
+}
+.successCart .successBtn{
+    float: right;
+    margin-top: 15px;
+}
+.successCart .successBtn a{
+    text-align: center;
+    padding: 15px 55px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.successCart  .goback{
+    border: 1px solid rgb(210, 210, 210);
+    color: rgb(160, 160, 160);
+    margin-right: 12px;
+}
+.successCart  .gocart{
+    background-color: rgb(226,24,24);
+    color: rgb(255, 255, 255);
+}
+.Msucceess{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-bottom: 56px;
+}
+.Msucceess .h5{
+    height: 1px; 
+    margin-top: 40px;
+    text-align: center; 
+    
+    border-top: 1px solid rgb(204, 204, 204);
+}
+.Msucceess .h5 h5{
+    position: relative;
+    top:-18px;
+    font-weight: 100;
+    background: #fff;
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(110, 110, 110);
+}
+.Msucceess .likeList{
+    margin-top: 36px;
+}
+.Msucceess .likeList li{
+    float: left;
+    width: calc(25% - 12px);
+    padding: 15px;
+    background-color: rgb(246, 246, 246);
+    margin-right: 15px;
+    text-align: center;
+}
+.Msucceess .likeList li:nth-of-type(4){
+    margin-right: 0px;
+}
+.Msucceess .stamp{
+    width: 51px;
+    height: 22px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 700;
+}
+.Msucceess .stampRed{
+    color: rgb(251,84,104);
+    border: 2px  solid rgb(226,24,24);
+}
+.Msucceess .likeList h5{
+    margin-top: 20px;
+    font-size: 13px;
+    color: black;
+    font-weight: 900;
+}
+.Msucceess .des{
+    color: #888888;
+    font-weight: 300;
+    overflow: hidden;
+    font-size: 13px;
+}
+.Msucceess  .red{
+    margin: 5px;
+    color: #ff0037;
+    font-size: 13px;
+    font-weight: 900;
+}
+.Msucceess .gocart{
+    width: 100px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 0;
+    color: rgb(141, 141, 141);
+    font-size: 13px;
+    background-color: rgb(246, 246, 246);
+}
+.Msucceess .gocart span{
+    width: 100px;
+    height: 25px;
+    font-weight: 700;
+    border: 1px solid rgb(160, 160, 160);
+    padding: 4px 10px;
+
+}
+.Msucceess .likebtn{
+    margin: 21px auto;
+    width: 100px;
+    text-align: center;
+}
+.Msucceess .likebtn a{
+    padding:  7px 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    font-weight: 900;
+    font-size: 13px;
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.Msucceess .likebtn .gray{
+    color: #888888;
+}
+.Nav{
+    background-color: #fff;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.nav .navcart{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.nav .mycart{
+    font-size: 24px;
+    color: #333333;
+    line-height: 24px;
+}
+.nav .navCart{
+    border-top: 1px dashed  rgb(204, 204, 204);
+    height: 1px;
+    width: 384px;
+    float: right;
+    margin-top: 15px;
+
+}
+.Nav .navCart .red{
+    color: #ff0037;
+}
+.nav .navCart li{
+    float: right;
+    color: #333333;
+    text-align: center;
+    position: relative;
+    top:-25px;
+    margin-left: 90px;
+    background: #fff;
+}
+.nav .navCart li:nth-last-of-type(1){
+    margin-left: 0px;
+}
+.cartlist{
+    background-color: rgb(238, 238, 238);
+    padding: 50px 0px 70px;
+}
+.cartlist .cartTable{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto ;
+    background-color: #fff;
+}
+.cartlist .cartTable table{
+    border-collapse: collapse;
+ }
+.cartlist .cartTable thead{
+    height: 70px;
+    border-bottom: 1px solid #888888;
+    color: #010000;
+    font-size: 14px;
+}
+.cartlist .cartTable thead th:nth-of-type(2){
+    text-align: left;
+}
+.cartlist .cartTable tbody td{
+    height: 153px;
+    text-align: center;
+}
+.cartTable tbody tr{
+    border-top: 1px solid rgb(238, 238, 238);
+}
+.cartTable tbody tr td:nth-of-type(2){
+    text-align: left;
+}
+.cartTable .AllcheckBox{
+    width: 70px;
+    padding-left:29px;
+    margin-left: 24px;
+}
+.cartTable .left-checkBox{
+    position: relative;
+    left: -10px;
+}
+.cartTable .cartlistImg{
+    float: left;
+    width: 90px;
+   
+}
+.cartTable .cartlistImg img{
+    vertical-align: middle;
+}
+.cartTable .cartlisstText{
+    float: left;
+    width: 200px;
+}
+.cartTable .cartlisstText h6{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 27px;
+    max-height: 54px;
+    overflow: hidden;
+}
+.cartTable .cartlisstText p{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+    line-height: 27px;
+    max-height: 54px;
+    overflow: hidden;
+}
+.cartTable .cartlisstText img{
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+.cartTable .salePrice{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.cartTable .price{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: line-through;
+}
+.cartTable .cartlistnum{
+    width: 150px;
+    position: relative;
+    border: 1px solid rgb(178, 178, 178);
+    left: 25px;
+}
+.cartlistnum .cartminus, .cartlistnum .cartadd{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    border: none;
+    color: #010000;
+    font-size: 18px;
+    font-size: 500;
+    cursor: pointer;
+}
+.cartlistnum .cartminus{
+    left: 0px;
+}
+.cartlistnum .cartadd{
+    right: 0px;
+}
+.cartlistnum .num{
+    width: 66px;
+    height: 43px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-size: 500;
+}
+.cartlist-red{
+    color: #ff0000;
+    font-size: 18px;
+    font-size: 500;
+}
+.cartTable tfoot{
+    border-top:  25px solid rgb(238, 238, 238);
+    height: 85px;
+}
+.cartTable .cartshopping{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-right: 1px solid rgb(141, 141, 141);
+    cursor: pointer;
+    color: #000000;
+    line-height: 15px;
+}
+.cartTable .totalnum{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+.cartTable .totalnum span{
+    color: #ff0037;
+}
+.cartTable .totalprice{
+    font-size: 18px;
+    font-weight: 500;  
+    color: #ff0037; 
+    text-align: left;
+}
+.cartTable .totalprice .span{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    border-right: 2px solid rgb(252, 0, 46);
+    margin-right: 8%;
+    line-height: 20px;
+}
+.cartTable .total{
+    font-size: 30px;
+}
+.cartTable .cartPay{
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: #ff0037;
+    display: block;
+    color: #fff;
+    line-height: 60px;
+    font-size: 24px;
+}
+.placeorder{
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 70px 0px;
+}
+.placeorderlist{
+    margin: 0px auto;
+    width: 1200px;
+    background-color: #fff;
+    padding-top: 83px;
+    padding-left: 40px;
+}
+.placeorderaddress h5{
+    font-size: 18px;
+    width: 73px;
+    height: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.placeorderaddress .default{
+    border: 1px solid #FF0000;
+}
+.placeorderaddress li{
+    float: left;
+    width: 250px;
+    margin-right: 15px;
+    border: 1px solid #999999;
+    height:210px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.placeorderaddress li .name{
+    font-size: 18px;
+    padding-top: 35px;
+    padding-left: 25px;
+    font-weight: 300;
+}
+.placeorderaddress li .phone{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.placeorderaddress .address{
+    padding-left: 25px;
+    overflow: hidden;
+    max-height: 55px;
+}
+.placeorderaddress .addressedit{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    width: 50px;
+    border: none;
+    background-color: #fff;
+    color: #ff0000;
+}
+.placeorderaddress .addaddress{
+    width: 60%;
+    margin: 80px auto;
+    cursor: pointer;
+}
+.placeorderaddress .addaddress div {
+    background-color:#c6c6c6;
+    width: 33px;
+    height: 33px;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.placeorderaddress .addaddress p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+}
+.placeorderlist .placeorderTable{
+    margin-top: 30px;
+    width: 100%;
+    padding-right: 25px;
+}
+.placeorderTitle h5{
+    float: left;
+    font-weight: 400;
+    font-size:18px;
+    color: #333333;
+    padding-left: 10px;
+}
+.placeorderTitle button{
+    float: right;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #999999;
+    text-align: right;
+    width: 150px;
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    padding-right: 35px;
+    margin: 5px 0 5px;
+}
+.placeorderBody{
+    border-top: 1px solid #c6c6c6;
+    border-bottom:1px solid #c6c6c6;
+    padding:20px 0px 30px;
+}
+
+.placeorderBody img{
+    margin-right: 10px;
+    height: 50px;
+    margin-top:7px;
+    margin-bottom: 8px; 
+} 
+.placeorderBody td{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400px;
+    overflow: hidden;
+    color: #333333;
+}
+.placeorderBody tr td:nth-of-type(1){
+    text-align: left;
+    padding-left: 10px;
+}
+.placeorderBody tr td:nth-last-of-type(1){
+    text-align: right;
+    padding-right: 10px;
+    color: #ff0000;
+}
+.placeorderBody .red{
+    padding: 5px 10px ;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+}
+.placeorderSend{
+    height: 85px;
+    line-height: 85px;
+}
+.placeorderSend .shipping{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    width: 200px;
+    padding-left: 10px;
+}
+.placeorderSend .information{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+.placeorderSend .cost{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FF0000;
+    float: right;
+    padding-right: 35px;
+}
+.doubt{
+    /* width: 21px; */
+    padding: 0px 6px;
+    color: #fff;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+    margin-right: 5px;
+}
+.placeorderinvoice{
+    height: 90px;
+    width: 1110px;
+    border-top: 1px solid #c6c6c6;
+    border-bottom: 1px solid #c6c6c6;
+    line-height: 90px;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #333333;
+}
+.placeorderinvoice .invoice{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    padding-left: 10px;
+    width: 200px;
+}
+.placeorderinvoice .invoiceinformation{
+    display: inline-block;
+    width: 748px;
+    height: 90px;
+}
+.placeorderinvoice .text{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    width: 282px;
+    margin-right: 30px;
+    border: #cccccc 1px solid
+}
+.placeorderinvoice .information{
+    color: #888888;
+}
+.placeorderzhubei{
+    padding-top: 25px;
+    width: 1100px;
+    padding-bottom: 45px;
+}
+.placeorderzhubei .span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    width: 200px;
+    padding-left: 10px;
+}
+.placeorderzhubei textarea{
+    vertical-align: top;
+    border: #cccccc 1px solid;
+    padding-left: 15px;
+    line-height: 30px;
+}
+.placeorderTotal{
+    float: right;
+    width: 400px;
+    margin-top: 30px;
+}
+.placeorderTotal .heji{
+    width: 260px;
+    float: right;
+}
+.placeorderTotal .num{
+    float: left;
+    width: 120px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+}
+.placeorderTotal .red{
+    float: right;
+    width: 140px;
+    text-align: right;
+    padding-right: 10px;
+    color: #FF0000;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+}
+.placeorderTotal .totalPrice{
+    margin-top: 30px;
+}
+.placeorderTotal .red strong{
+    font-size: 30px;
+    line-height: 50px;
+}
+.placeorderTotal .totalPrice .num{
+    padding-top: 20px;
+}
+.placeorderTotal .gopay{
+    margin-top: 15px;
+    text-align: center;
+    width: 200px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #ff0000;
+    height: 50px;
+    margin-right: 10px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.placeorderModal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    background-color: #888888;
+    z-index: 10;
+    padding: 100px;
+}
+.placeorderModal .modal{
+    margin: 150px auto;
+    width: 600px;
+    background-color: #FFFFFF;
+}
+.placeorderModal .modalTitle{
+    height:60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.placeorderModal h5{
+    float: left;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+.placeorderModal span{
+    float: right;
+    color: #000000;
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.placeorderModal .modalBody{
+    padding: 15px 25px 45px;
+}
+.placeorderModal .mdalText{
+    width: 260px;
+    margin-right: 10px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    border: 1px solid #cccccc;
+}
+.placeorderModal .modaladdress{
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    width: 535px;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+}
+.placeorderModal .modalFoot{
+    height: 90px;
+    background-color: #F2F2F2;
+    padding: 0px 25px;
+    width: 100%;
+    text-align: center;
+}
+.placeorderModal button{
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 10px 50px;
+    color: #FFFFFF;
+    border: none;
+    
+}
+.placeorderModal .sure{
+    background-color: #ff0000;
+}
+.placeorderModal .cancel{
+    background-color: #888888;
+}
+.pay{
+   width:100%;
+   padding: 90px 0px; 
+   background-color: #f2f2f2;
+}
+.paylist{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 83px 60px;
+}
+.payList{
+    border-bottom: 1px solid #c6c6c6;
+    padding-bottom: 50px;
+}
+.pay .payImg{
+    float: left;
+    width: 100px;
+}
+.pay .payInformation{
+    float: left;
+    width: 700px;
+    padding-left: 30px;
+    position: relative;
+    top: -5px;
+}
+.pay .payprice{
+    float: right;
+    width: 200px;
+}
+.payInformation h4{
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.payInformation p{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #666666;;
+
+}
+.payInformation .red{
+    font-weight: 700;
+    color: #FF0000;
+}
+.payprice{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+.payprice p{
+    margin-bottom: 30px;
+}
+.payprice .red strong{
+    font-size: 30px;
+    font-weight: 400;
+}
+.payprice .red{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FF0000;
+}
+.payprice button{
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: none;
+    float: right;
+    margin-right: 25px;
+}
+.pay .payorderdetail{
+    margin-top: 15px;
+}
+.pay .payorderdetail p{
+    line-height: 24px;
+}
+.payorderdetail span{
+    float: left;
+}
+.payorderdetail .detailname{
+    width: 100px;
+    text-align: left;
+    line-height: 24px;
+}
+.payorderdetail .detailvalue{
+    float: left;
+    width: 500px;
+    text-align: left;
+}
+.pay .paymethod{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.pay .paymethod h4{
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+}
+.pay .paymethod div{
+    margin-top: 35px;
+}
+.pay .paymethod span{
+    margin-right: 15px;
+    cursor: pointer;
+}
