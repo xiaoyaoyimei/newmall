@@ -197,11 +197,15 @@
 .cartlist .cartTable table{
     border-collapse: collapse;
  }
-.cartlist .cartTable thead{
+.cartlist .cartTable thead tr{
     height: 70px;
     border-bottom: 1px solid #888888;
     color: #010000;
+    font-weight: 400;
     font-size: 14px;
+}
+.cartlist .cartTable thead th{
+    font-weight: 400;
 }
 .cartlist .cartTable thead th:nth-of-type(2){
     text-align: left;
@@ -672,18 +676,22 @@
 .placeorderModal .mdalText{
     width: 260px;
     margin-right: 10px;
-    height: 36px;
-    line-height: 36px;
+    height: 45px;
+    line-height: 45px;
     padding-left: 15px;
     border: 1px solid #cccccc;
 }
 .placeorderModal .modaladdress{
-    height: 36px;
-    line-height: 36px;
+    height: 45px;
+    line-height: 45px;
     padding-left: 15px;
     width: 535px;
     margin-top: 15px;
     border: 1px solid #cccccc;
+}
+.placeorderModal  .modaladdressaddr{
+    height: 90px;
+    line-height: 90px;
 }
 .placeorderModal .modalFoot{
     height: 90px;
@@ -816,4 +824,100 @@
 .pay .paymethod span{
     margin-right: 15px;
     cursor: pointer;
+}
+.signin{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.signinImg{
+    width: 1920px;
+    position: relative;
+    margin-left: 50%;
+    left: -960px;
+}
+.signin form{
+    position: absolute;
+    top: 40px;
+    right: 200px;
+    z-index: 100;
+    width: 410px;
+    height: 530px;
+    background-color: #ffffff;
+    padding: 53px 46px;
+}
+.signin form h4{
+    font-size: 24px;
+    font-weight: 400;
+    color:#333333;
+    height: 31px;
+    line-height:31px;
+}
+.signin form input{
+    margin-top: 26px;
+    width: 320px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    border: 1px solid #CCCCCC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.signin .input{
+    margin-top: 20px;
+}
+.signin .yanzheng{
+    width: 201px;
+    margin-right: 13px;
+}
+.signin form img{
+    width: 100px;
+    height: 50px;
+    background-color: #999999;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+.signin .btn{
+    margin-top: 47px;
+    width: 320px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 1);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+.signin p a{
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 13px;
+}
+.signin .a{
+    float: right;
+}
+.forget{
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 58px 0 ;
+}
+.forget form{
+    width: 870px;
+    height: 590px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    padding-top: 31px;
+    text-align: center;
+}
+.forget h4{
+    margin-top: 49px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
 }
