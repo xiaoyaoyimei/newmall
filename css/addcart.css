@@ -631,6 +631,15 @@
     line-height: 50px;
     cursor: pointer;
 }
+#placeorderModal{
+    position: fixed;
+    left: calc(50% - 300px);
+    top: 250px;
+    width: 600px;
+    height: 420px;
+    background-color: #888888;
+    opacity: 1;
+}
 .placeorderModal{
     position: fixed;
     top: 0px;
@@ -915,9 +924,51 @@
 }
 .forget h4{
     margin-top: 49px;
+    margin-bottom: 42px;
     height: 39px;
     font-weight: 400;
     font-size: 30px;
     color: #333333;
     text-align: center;
+}
+.forget p{
+    height: 20px;
+    width: 320px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin:  0 auto;
+    text-align: left;
+}
+.forget input{
+    width: 320px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #CCCCCC;
+    padding-left: 15px;
+}
+.forget .input{
+    margin-top: 20px;
+}
+.forget .yanzheng{
+    width: 201px;
+    margin-right: 13px;
+}
+.forget .img{
+    width: 100px;
+    height: 50px;
+    background-color: #999999;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+.forget .btn{
+    margin-top: 37px;
+    width: 320px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 1);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
 }
