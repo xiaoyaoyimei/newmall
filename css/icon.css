@@ -183,7 +183,7 @@
 	cursor: pointer;
 }
 .cartIcon-checkBox-checked{
-	background-position: -475px -144px;
+	background-position: -477px -140px;
 	width: 24px;
 	height: 24px;
 	cursor: pointer;	
@@ -249,4 +249,14 @@
 	background-position: -500px -225px;
 	width: 180px;
 	height: 65px;
+}
+.iconIcon-down{
+	background-position: -300px -317px;
+	width: 185px;
+	height: 60px;
+}
+.iconIcon-up{
+	background-position: -500px -317px;
+	width: 185px;
+	height: 60px;
 }

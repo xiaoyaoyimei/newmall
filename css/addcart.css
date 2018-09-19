@@ -199,7 +199,7 @@
  }
 .cartlist .cartTable thead tr{
     height: 70px;
-    border-bottom: 1px solid #888888;
+    border-bottom: 1px solid #f2f2f2;
     color: #010000;
     font-weight: 400;
     font-size: 14px;
@@ -1142,4 +1142,171 @@
     font-size: 14px;
     color: #999999;
     font-weight: 400;
+}
+.corporateC{
+    padding-top: 40px;
+}
+.corporateC h5{
+    margin-top: 65px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #333333;
+    cursor: pointer;
+}
+.corporateC .red{
+    color: rgb(255, 0, 0);
+}
+.corporateC p{
+    margin-top: 35px;
+    font-size: 16px;
+    color: #999999;
+}
+.corporateC .weight{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+.corporateC h6{
+    margin-top: 125px;
+    margin-bottom: 91px;
+    font-weight: 700;
+    color: #666666;
+    font-size: 18px;
+}
+.none{
+    display: none;
+}
+.corporateCdiv .corproateClogo{
+    float: left;
+    width: 154px;
+    height: 151px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    line-height: 151px;
+}
+.corporateC .corporateCbody{
+    padding-top:0px; 
+}
+.corporateCdiv .corporateCtext{
+    float: left;
+    width: 500px;
+    height: 151px;
+    margin-left: 38px;
+}
+.corporateCtext h4{
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+.corporateCtext h6{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.corporateCbody .span{
+    width: 154px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-top: 5px;
+}
+.corporateCbody .span:hover{
+    color: #999999;
+    cursor: default;
+}
+.corporateCbody .form{
+    width: 100%;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    margin-top: 25px;
+    padding-top: 28px;
+    padding-bottom: 45px;
+    margin-bottom: 45px;
+}
+.form p{
+    margin-top: 15px;
+    width:50%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+    text-indent: 0em;
+}
+.corporateCbody  .form p:hover{
+    color: #666666;
+}
+.form .btn{
+    padding: 0px;
+    background-color: #f0f0f0;
+    border:1px solid #c6c6c6;
+    font-weight: 400;
+    font-size: 14px;
+    width: 134px;
+    height: 31px;
+    line-height: 26px;
+    text-align: center;
+    color: #666666;
+    cursor: pointer;
+}
+.form .red{
+    color: rgb(255, 0, 0);
+    border:1px solid rgb(255, 0, 0);
+    background-color: #fff;
+    position: relative;
+    top: -15px;
+}
+.corporateCname{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    text-indent: 1em;
+}
+.corproateCdetail{
+    margin-top: 10px;
+    padding: 40px 60px;
+    border: 1px solid rgb(255, 0, 0);
+}
+.corproateCdetail .corporateCname{
+    text-indent: 0em;
+}
+.corporateC .corproateCdetail p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+    margin-top: 10px;
+    text-indent: 0em;
+}
+.corporateC .corproateCdetail p:hover{
+    color: #666666;
+}
+.corporateC h2{
+    font-weight: 400;
+    font-size: 24px;
+    color:#333333; 
+}
+.corporateC .p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    cursor: default;
+    margin-top: 27px;
+    text-indent: 0em;
+}
+.corporateC .p:hover{
+    color: #333333;
+}
+.corporateCimg{
+    margin-top: 160px;
+}
+.corporateCimg i{
+    margin-right: 30px;
+    cursor: pointer;
 }
