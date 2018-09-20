@@ -8,7 +8,45 @@
 		<link href="css/common.css" type="text/css" rel="stylesheet">
 		<link href="css/icon.css" type="text/css" rel="stylesheet">
 		<link href="css/addcart.css" type="text/css" rel="stylesheet">
-	</head>
+        <style>
+        .cartTablenull{
+            width: 650px;
+            height: 210px;
+            margin: 0 auto;
+            background-color: rgb(238, 238, 238);
+        }
+        .cartTablenull img{
+            opacity: 0.5;
+            width: 240px;
+        }
+        .cartTablenull span{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 36px;
+            color: #999999;
+            float: right;
+            width: 360px;
+            margin-top: 35px;
+        }
+        .cartTablenull button{
+            width: 180px;
+            height: 50px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(255, 0, 0, 1);
+            border-radius: 0px;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            font-weight: 400;
+            font-size: 18px;
+            color: #FF0000;
+            text-align: center;
+            background-color: #ffffff;
+            margin-top: 15px;
+        }
+        </style>
+    </head>
 
 	<body>
 		<header class="bg-black ">
@@ -43,8 +81,13 @@
 		</div>
         <!-- cart list-->
         <div class="cartlist clearfix">
-            <div class="cartTable">
-                <table>
+                <div class="cartTablenull">
+                        <img src="image/u15.png" alt="">
+                        <span>您的购物车还是空的！<button>马上去购物</button></span>
+                        
+                    </div>
+            <!-- <div class="cartTable">
+                 <table>
                     <thead>
                         <th width='150'><span class="cartIcon cartIcon-checkBox AllcheckBox"> 全选</span> </th>
                         <th width='350'>商品名称</th>
@@ -141,8 +184,8 @@
                             <td><a class="cartPay" href="">去结算</a></td>
                         </tr>
                     </tfoot>
-                </table>
-            </div>
+                </table> 
+            </div> -->
         </div>
         <!--maybelike-->
         <div class="Msucceess clearfix">
