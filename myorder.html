@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>迪锐克斯商城</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<link href="css/base.css" type="text/css" rel="stylesheet">
+		<link href="css/common.css" type="text/css" rel="stylesheet">
+		<link href="css/icon.css" type="text/css" rel="stylesheet">
+        <link href="css/index.css" type="text/css" rel="stylesheet">
+		<link href="css/addcart.css" type="text/css" rel="stylesheet">
+		<style>
+			.newcenterbody .myorder{
+				color: #333333;
+				padding-bottom: 0px;
+			}
+			.myorder .myorderspan{
+				margin-top: 35px;
+			}
+			.myorder .myorderspan span{
+				display: inline-block;
+				width: 125px;
+				height: 40px;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 16px;
+				color: #666666;
+				text-align: center;
+				line-height: 40px;
+				cursor: pointer;
+			}
+			.myorder .myorderspan .red, .myorder .myorderspan span:hover{
+				color: #FF0000;
+			}
+			.new .ul{
+				padding: 0px;
+			}
+			.new .ul li{
+				padding: 28px 0px;
+			}
+			.new .ul>li{
+				border-bottom: 1px solid #c6c6c6;
+				padding-bottom: 0px;
+			}
+			.ul .myorderinformation{
+				height: 20px;
+				font-weight: 400;
+				font-size: 14px;
+				color: #666666;
+			}
+			.ul .myorderOrder{
+				float: left;
+				width: 100%;
+				height: 20px;
+				font-weight: 400;
+				font-size: 14px;
+				color: #666666;
+				text-align: left;
+				margin: 0px 0px 10px;
+			}
+			.ul .span{
+				float: right;
+				background-color: #ffffff;
+				color: #666666;
+				padding: 0px;
+			}
+			.ul .span strong{
+				font-weight: 400;
+				font-style: normal;
+				font-size: 30px;
+				color: #1E1E1E;
+				text-align: right;
+			}
+			.ul .red{
+				border: none;
+			}
+			.myorderImg ul{
+				padding: 0px;
+				padding-top: 28px;
+			}
+			.ul .myorderImg li{
+				float: left;
+				width: 470px;
+				padding-bottom: 0px;
+				padding-top: 0px;
+
+			}
+			.myorderImg  img{
+				height: 60px;
+				vertical-align: middle;
+			}
+			.ul .myorderImg{
+				position: relative;
+			}
+			.ul .myorderImg span{
+				float: right;
+				width: 390px;
+				font-weight: 400;
+				height: 20px;
+				overflow: hidden;
+				font-style: normal;
+				font-size: 14px;
+				color: #666666;
+			}
+			.ul .myorderImg span:nth-of-type(2){
+				position: relative;
+				top: -30px;
+			}
+			.myorderImg .myorderp{
+				/* float: right; */
+				position: absolute;
+				width: 375px;
+				top: 40px;
+				right: -10px;
+
+			}
+			.myorderImg .myorderp button{
+				display: inline-block;
+				width: 80px;
+				margin-right: 10px;
+				height: 30px;
+				line-height: 30px;
+				border: none;
+				background-color: #e1e1e1;
+				font-weight: 400;
+				font-size: 13px;
+				color: #333333;
+				text-align: center;
+			}
+			.myorderImg .myorderp button:nth-last-of-type(n+2):hover{
+				background-color: #cccccc;
+			}
+			.myorderImg .myorderp button:nth-last-of-type(1){
+				background-color: #ffffff;
+				border: 1px solid #f2191a;
+				color: #FF0000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--  header -- -->
+		<header class="bg-black ">
+			<div class="main-width">
+				<div class="fl header-left">
+					<a href="javascript:void(0)">首页</a>
+					<hr class="spacer mlr8"></hr>
+					<a href="javascript:void(0)">合作招商</a>
+					<hr class="spacer mlr8"></hr>
+					<a href="javascript:void(0)">操作指南</a>
+				</div>
+				<div class="fr header-right">
+					<a href="">登录</a>
+					<hr class="spacer"></hr>
+					<a href="">注册</a>
+					<hr class="spacer"></hr>
+					<a href="" class="message"><i class="icon icon-message"></i></a>
+					<a href="" class="mini-cart"><i class="icon icon-minicart"></i></a>
+				</div>
+			</div>
+		</header>
+		<!-- nav -->
+		<div class="nav NEW">
+			<div class="main-width clearfix">
+				<a href="javascript:void(0)" class="logo fl"><img src="image/logo-red.png"></a>
+				<ul class="nav_title fl">
+					<li>LPL赛事用椅</li>
+					<li>电竞座椅</li>
+					<li>办公座椅</li>
+					<li>家居座椅</li>
+					<li>新品</li>
+					<li>电脑桌</li>
+					<li>配件</li>
+					<li>选款建议</li>
+				</ul>
+				<div class="search_wrap fr"><input></input>
+					<button class="search_btn"><i class="icon icon-search"></i></button></div>
+			</div>
+		</div>
+        <!-- new -->
+        <div class="new">
+            <p>首页>我的订单</p>
+            <div class="newcenter clearfix">
+                <div class="newcenternav">
+					<h4>我的购物车</h4>
+					<h4>订单中心</h4>
+                    <p class="red">我的订单</p>
+                    <p>评价晒单</p>
+                    <p>售后服务</p>
+                    <h4>个人中心</h4>
+					<p class="">我的账户</p>
+					<p>消息通知</p>
+                    <p>喜欢的商品</p>
+                    <h4>投诉建议</h4>
+                    <h4 class="last">联系我们</h4>
+                </div>
+                <div class="newcenterbody">
+                    <h3 class="myorder">我的订单
+						<div class="myorderspan">
+							<span class="red">全部订单</span>
+							<span>已收货</span>
+							<span>待支付</span>
+							<span>待收货</span>
+							<span>已关闭</span>
+						</div>
+					</h3>
+                    <ul class="ul">
+                        <li class="">
+							<h3 class="red">订单状态</h3>
+								<div class="myorderinformation clearfix">
+									<span class="myorderOrder clearfix">订单时间 丨 收货人丨 订单号丨 支付方式 <span class="span">订单金额: ￥<strong>1699</strong></span></span>	
+								</div>	
+								<div class="myorderImg clearfix">
+									<ul>
+										<li>
+											<img src="image/dpro-small.png" alt=""> <span>产品主标题   产品规格</span><span>产品价格 x 数量</span>
+										</li>
+										<li>
+												<img src="image/dpro-small.png" alt=""> <span>产品主标题   产品规格</span><span>产品价格 x 数量</span>
+										</li>
+									</ul>
+									<div class="myorderp">
+										<button>订单详情</button>
+										<button>查看物流</button>
+										<button>售后服务</button>
+										<button>去评价</button>
+									</div>
+								</div>
+								
+							
+						</li>
+						<li class="">
+								<h3 class="red">订单状态</h3>
+									<div class="myorderinformation clearfix">
+										<span class="myorderOrder clearfix">订单时间 丨 收货人丨 订单号丨 支付方式 <span class="span">订单金额</span></span>	
+									</div>	
+									<div class="myorderImg clearfix">
+										<ul>
+											<li>
+												<img src="image/dpro-small.png" alt=""> <span>产品主标题   产品规格</span><span>产品价格 x 数量</span>
+											</li>
+											<li>
+													<img src="image/dpro-small.png" alt=""> <span>产品主标题   产品规格</span><span>产品价格 x 数量</span>
+											</li>
+										</ul>
+										<div class="myorderp">
+											<button>订单详情</button>
+											<button>查看物流</button>
+											<button>售后服务</button>
+											<button>去评价</button>
+										</div>
+									</div>
+									
+								
+							</li>
+							<li class="">
+									<h3 class="red">订单状态</h3>
+										<div class="myorderinformation clearfix">
+											<span class="myorderOrder clearfix">订单时间 丨 收货人丨 订单号丨 支付方式 <span class="span">订单金额</span></span>	
+										</div>	
+										<div class="myorderImg clearfix">
+											<ul>
+												<li>
+													<img src="image/dpro-small.png" alt=""> <span>产品主标题   产品规格</span><span>产品价格 x 数量</span>
+												</li>
+												<li>
+														<img src="image/dpro-small.png" alt=""> <span>产品主标题   产品规格</span><span>产品价格 x 数量</span>
+												</li>
+											</ul>
+											<div class="myorderp">
+												<button>订单详情</button>
+												<button>查看物流</button>
+												<button>售后服务</button>
+												<button>去评价</button>
+											</div>
+										</div>
+										
+									
+								</li>
+                    </ul>
+       
+                </div>
+            </div>
+        </div>
+		<!--floor-->
+		<div class="newfooter">
+
+			<div class="main-width clearfix">
+
+				<ul class="fl icon-classes">
+					<li><i class="icon icon-qi"></i>7天无理由退货</li>
+					<li><i class="icon icon-express"></i>快速送达</li>
+					<li><i class="icon icon-freein"></i>免费上门安装</li>
+					<li><i class="icon icon-outline"></i>线下门店</li>
+				</ul>
+				<hr></hr>
+				<dl><dt>服务支持</dt>
+					<dd><a href="javascript:void(0)">关于运输</a></dd>
+					<dd><a href="javascript:void(0)">
+						安装方式</a></dd>
+					<dd><a href="javascript:void(0)">
+						售后政策</a></dd>
+				</dl>
+				<dl><dt>帮助中心</dt>
+					<dd><a href="javascript:void(0)">账户管理</a></dd>
+					<dd><a href="javascript:void(0)">
+
+						购物指南</a></dd>
+					<dd><a href="javascript:void(0)">
+						关于发票</a></dd>
+				</dl>
+				<dl><dt>关于品牌</dt>
+					<dd><a href="javascript:void(0)">了解迪瑞克斯</a></dd>
+					<dd><a href="javascript:void(0)">
+
+						加入迪瑞克斯</a></dd>
+				</dl>
+				<dl><dt>特色服务</dt>
+					<dd><a href="javascript:void(0)">DIY定制</a></dd>
+					<dd><a href="javascript:void(0)">优惠码通道</a></dd>
+					<dd><a href="javascript:void(0)">查询真伪</a></dd>
+				</dl>
+				<dl><dt>DX全球</dt>
+					<dd><a href="javascript:void(0)">USA</a></dd>
+					<dd><a href="javascript:void(0)">JAPAN</a></dd>
+					<dd><a href="javascript:void(0)">KOREA</a></dd>
+				</dl>
+				<hr class="ml60"></hr>
+				<div class="fr linkus">
+					<h1>400-990-5033</h1>
+					<p>周一至周六 9:00-17:30
+					</p>
+					<p>(仅收市话费)</p><button>联系在线客服</button>
+					<div class="pr"><i class="icon icon-wechat"></i><i class="icon icon-webo"></i><i class="icon icon-youku"></i></div>
+				</div>
+			</div>
+
+		</div>
+		<!--	footer-->
+		<!--bottom-->
+		<div class="bottom">
+			<div class="main-width bottom-con"><img class="fl" src="image/logo-red.png">
+				<div class="bottom-dtl">
+					<p>
+						<a href="">服务协议 </a> |
+						<a href="" class="ml10"> 隐私声明</a>© 2018 迪瑞克斯DXRacer</p>
+					<p>本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
