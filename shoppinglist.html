@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>迪锐克斯商城</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<link href="css/base.css" type="text/css" rel="stylesheet">
+		<link href="css/common.css" type="text/css" rel="stylesheet">
+		<link href="css/icon.css" type="text/css" rel="stylesheet">
+        <link href="css/index.css" type="text/css" rel="stylesheet">
+        <link href="css/addcart.css" type="text/css" rel="stylesheet">
+        <link href="css/iview.css" type="text/css" rel="stylesheet">
+        <script src="iview.min.js"></script>
+		<style>
+            .shoppinglist{
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .mylike li{
+                float: left;
+                width:290px;
+                margin-right: 10px;
+                position: relative;
+                text-align: center;
+                margin-top: 15px;
+                background-color: #ffffff;
+            }
+            .mylike li:nth-of-type(4n){
+                margin-right: 0px;
+            }
+            .mylike img{
+                margin-top: 60px;
+                width: 260px;
+                height: 260px;
+            }
+            .mylike li span{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: #c6c6c6;
+                font-weight: 400;
+                font-size: 24px;
+                border: none;
+                padding: 0px;
+                cursor: pointer;
+            }
+            .mylike li i{
+                position: absolute;
+                border: 1px solid #ff0000;
+                top: 15px;
+                left: 20px;
+                width: 60px;
+                height: 24px;
+                color: #FF0000;
+                font-weight: 400;
+                font-size: 13px;
+                text-align: center;
+                line-height: 20px;
+                cursor: pointer;
+            }
+            .mylike li span.red{
+                position: absolute;
+                top: 18px;
+                right: 10px;
+                color: #ff0000;
+                font-size: 24px;
+                margin: 0;
+            }
+            .mylike .ptitle{
+                font-weight: 400;
+               
+                font-size: 14px;
+                text-align: center;
+                color: #333333;
+                height: 30px;
+                line-height: 30px;
+                margin: 0px;
+                padding: 0px;
+                margin-top: 10px;
+            }
+            .new .mylike .ptitle:hover{
+                color: #333333;
+            }
+            .mylike .pt{
+                font-weight: 400;
+                font-size: 14px;
+                text-align: center;
+                color: #999999;
+                height: 21px;
+                line-height: 21px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .new .mylike .pt:hover{
+                color: #999999;
+            }
+            .new .mylike .red:hover{
+                color: #FF0000;
+            }
+            .mylike .red{
+                height: 21px;
+                line-height: 21px;
+                margin: 0px;
+                padding: 0px;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 14px;
+                color: #FF0000;
+                text-align: center;
+                margin-bottom: 28px;
+            }
+            .shoppinglistnav{
+                margin-top: 25px;
+                margin-bottom: 0px;
+                height: 41px;
+            }
+            .shoppinglistnav span{
+                float: left;
+                width: 90px;
+                height: 41px;
+                text-align: center;
+                line-height: 41px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #666666;
+            }
+            .shoppinglistnav span:hover{
+                color:#ff0000; 
+            }
+		</style>
+	</head>
+
+	<body>
+		<!--  header -- -->
+		<header class="bg-black ">
+			<div class="main-width">
+				<div class="fl header-left">
+					<a href="javascript:void(0)">首页</a>
+					<hr class="spacer mlr8"></hr>
+					<a href="javascript:void(0)">合作招商</a>
+					<hr class="spacer mlr8"></hr>
+					<a href="javascript:void(0)">操作指南</a>
+				</div>
+				<div class="fr header-right">
+					<a href="">登录</a>
+					<hr class="spacer"></hr>
+					<a href="">注册</a>
+					<hr class="spacer"></hr>
+					<a href="" class="message"><i class="icon icon-message"></i></a>
+					<a href="" class="mini-cart"><i class="icon icon-minicart"></i></a>
+				</div>
+			</div>
+		</header>
+		<!-- nav -->
+		<div class="nav NEW">
+			<div class="main-width clearfix">
+				<a href="javascript:void(0)" class="logo fl"><img src="image/logo-red.png"></a>
+				<ul class="nav_title fl">
+					<li>LPL赛事用椅</li>
+					<li>电竞座椅</li>
+					<li>办公座椅</li>
+					<li>家居座椅</li>
+					<li>新品</li>
+					<li>电脑桌</li>
+					<li>配件</li>
+					<li>选款建议</li>
+				</ul>
+				<div class="search_wrap fr"><input></input>
+					<button class="search_btn"><i class="icon icon-search"></i></button></div>
+			</div>
+		</div>
+        <!-- new -->
+        <div class="new">
+            <div class="shoppinglist">
+                <p>首页 > 全部结果 </p>
+                <div class="shoppinglistnav clearfix">
+                    <span>推荐</span>
+                    <span>新品</span>
+                    <span>价格 ↑</span>
+                </div>
+                <ul class="clearfix mylike">
+                    <li >
+                        <i>标签</i>
+                        <span class="red">❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>
+                    <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>                  
+                    <li>
+                        <i>热卖</i>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>
+                    <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>
+                    <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>
+                    <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>                           
+                        <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>                            
+                    <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>                           
+                        <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>                            
+                    <li>
+                        <span>❤</span>
+                        <img src="image/shoppinglist.png" alt="">
+                        <p class="ptitle">产品主标题</p>
+                        
+                        <p class="red">价格显示</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		<!--floor-->
+		<div class="newfooter">
+
+			<div class="main-width clearfix">
+
+				<ul class="fl icon-classes">
+					<li><i class="icon icon-qi"></i>7天无理由退货</li>
+					<li><i class="icon icon-express"></i>快速送达</li>
+					<li><i class="icon icon-freein"></i>免费上门安装</li>
+					<li><i class="icon icon-outline"></i>线下门店</li>
+				</ul>
+				<hr></hr>
+				<dl><dt>服务支持</dt>
+					<dd><a href="javascript:void(0)">关于运输</a></dd>
+					<dd><a href="javascript:void(0)">
+						安装方式</a></dd>
+					<dd><a href="javascript:void(0)">
+						售后政策</a></dd>
+				</dl>
+				<dl><dt>帮助中心</dt>
+					<dd><a href="javascript:void(0)">账户管理</a></dd>
+					<dd><a href="javascript:void(0)">
+
+						购物指南</a></dd>
+					<dd><a href="javascript:void(0)">
+						关于发票</a></dd>
+				</dl>
+				<dl><dt>关于品牌</dt>
+					<dd><a href="javascript:void(0)">了解迪瑞克斯</a></dd>
+					<dd><a href="javascript:void(0)">
+
+						加入迪瑞克斯</a></dd>
+				</dl>
+				<dl><dt>特色服务</dt>
+					<dd><a href="javascript:void(0)">DIY定制</a></dd>
+					<dd><a href="javascript:void(0)">优惠码通道</a></dd>
+					<dd><a href="javascript:void(0)">查询真伪</a></dd>
+				</dl>
+				<dl><dt>DX全球</dt>
+					<dd><a href="javascript:void(0)">USA</a></dd>
+					<dd><a href="javascript:void(0)">JAPAN</a></dd>
+					<dd><a href="javascript:void(0)">KOREA</a></dd>
+				</dl>
+				<hr class="ml60"></hr>
+				<div class="fr linkus">
+					<h1>400-990-5033</h1>
+					<p>周一至周六 9:00-17:30
+					</p>
+					<p>(仅收市话费)</p><button>联系在线客服</button>
+					<div class="pr"><i class="icon icon-wechat"></i><i class="icon icon-webo"></i><i class="icon icon-youku"></i></div>
+				</div>
+			</div>
+
+		</div>
+		<!--	footer-->
+		<!--bottom-->
+		<div class="bottom">
+			<div class="main-width bottom-con"><img class="fl" src="image/logo-red.png">
+				<div class="bottom-dtl">
+					<p>
+						<a href="">服务协议 </a> |
+						<a href="" class="ml10"> 隐私声明</a>© 2018 迪瑞克斯DXRacer</p>
+					<p>本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
