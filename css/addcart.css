@@ -401,6 +401,7 @@
     padding-left: 25px;
     overflow: hidden;
     max-height: 55px;
+    padding-right: 25px;
 }
 .placeorderaddress .addressedit{
     position: absolute;
