@@ -731,7 +731,7 @@
     padding-left: 25px;
     font-size: 18px;
     font-weight: 400;
-    color: #000000;
+    /* color: #000000; */
 }
 .placeorderModal span{
     float: right;
